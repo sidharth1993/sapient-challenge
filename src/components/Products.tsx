@@ -67,11 +67,11 @@ function Products() {
                         <div className="product-item" data-testid="product-item" key={product.id} >
                             <div className="product-description">
                                 <div className="product-image product-image-parent">
-                                    <img src={`/images${product.image}`} data-testid="product-image-zoom" onClick={() => setImageZoom(index)} alt={product.title} height={40} width={40} />
+                                    <img src={`/sapient-challenge/images${product.image}`} data-testid="product-image-zoom" onClick={() => setImageZoom(index)} alt={product.title} height={40} width={40} />
                                     {   
                                         showZoom[index] &&
                                         <div ref={imgRef} className="product-image-zoom" data-testid="product-image-on-zoom" onMouseLeave={setAllZoomFalse}>
-                                            <img src={`/images${product.image}`} width={300} height={300} alt={product.title} />
+                                            <img src={`/sapient-challenge/images${product.image}`} width={300} height={300} alt={product.title} />
                                         </div>
                                     }
                                 </div>
