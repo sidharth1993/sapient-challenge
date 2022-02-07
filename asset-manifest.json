@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sapient-challenge/static/css/main.2bd44395.css",
+    "main.js": "/sapient-challenge/static/js/main.11451226.js",
+    "static/js/787.15846d51.chunk.js": "/sapient-challenge/static/js/787.15846d51.chunk.js",
+    "index.html": "/sapient-challenge/index.html",
+    "main.2bd44395.css.map": "/sapient-challenge/static/css/main.2bd44395.css.map",
+    "main.11451226.js.map": "/sapient-challenge/static/js/main.11451226.js.map",
+    "787.15846d51.chunk.js.map": "/sapient-challenge/static/js/787.15846d51.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bd44395.css",
+    "static/js/main.11451226.js"
+  ]
+}
