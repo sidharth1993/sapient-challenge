@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width:961px) {
+  .cart {
+    width: 100%;
+  }
+}
+
+@media (min-width:962px) {
+  .cart {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+}
+
+.small-icon {
+  height: 12px;
+  width: 12px;
+}
+
+.App-header {
+  background-color: rgb(63, 62, 62);
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  font-size: 20px;
+  padding: 6px;
+  color: white;
+}
+
+.primary-text {
+  font-size: 18px;
+}
+
+.secondary-text {
+  font-size: 13px;
+}
+
+.primary-secondary-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.tooltip-parent {
+  position: relative;
+}
+
+.tooltip {
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: -50px;
+  z-index: 20;
+  width: 300px;
+  /* margin-right: 20px; */
+  background-color: rgb(151, 182, 182);
+  border-radius: 4px;
+}
+
+.product-image-parent {
+  position: relative;
+}
+
+.product-image-zoom {
+  display: block;
+  position: absolute;
+  top: 50px;
+  z-index: 30;
+  width: 300px;
+  height: 300px;
+  /* margin-right: 20px; */
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.pointer-cursor {
+  cursor: pointer;
+}
+
+.tooltip-products {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  border-bottom: 1px solid white;
+}
+
+.products-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  background-image: linear-gradient(to right, rgb(151, 182, 182),#1babc7);
+  border-radius: 2px;
+}
+
+.product-item {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+
+.product-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.product-image {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.hidden-id {
+  display: none;
+}
+
+img {
+  border-radius: 2px;
+  cursor: zoom-in;
+}
+
+input {
+  width: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 2px;
+}
+
+button {
+  font-family: inherit;
+  border: 0;
+  padding: 0;
+  background-color: inherit;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
